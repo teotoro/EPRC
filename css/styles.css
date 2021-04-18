@@ -518,7 +518,7 @@ nav li{
 
 .news-more{
     display: none;
-    width: 53.5%;
+    width: 58.5%;
     margin: 30px auto;
     height: 55px;
     background-color: var(--hover-color);
@@ -537,7 +537,7 @@ nav li{
 .media-more{
     position: absolute;
     bottom: 20px;
-    width: 270px;
+    width: 61%;
     height: 50px;
     background-color: var(--hover-color);
     left: 50%;
