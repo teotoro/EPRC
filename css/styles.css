@@ -912,7 +912,6 @@ footer a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
 }
 
 .footer-contact address{
@@ -1081,13 +1080,13 @@ footer a{
     width: 100%
 }
 
-.about-us-ul{
+.about-us ul{
     font-family: var(--font-arial-caps);
     padding: 0;
     margin-bottom: 50px;
 }
 
-.about-us-ul li{
+.about-us ul li{
     list-style-type: none;
     line-height: 34px;
 }
@@ -1256,6 +1255,7 @@ footer a{
         padding-left: 20px;
     }
 
+/*nav-top section    */
     .nav-top{
         height: 50px;
         position: relative;
@@ -1339,8 +1339,6 @@ footer a{
         width: 100%;
         z-index: 10;
     }
-
-}
 
 /*mobile version*/
 
@@ -1529,8 +1527,12 @@ footer a{
         width: 240px;
     }
 
+    .footer-contact{
+        margin-bottom: 40px;
+    }
+
     .footer-contact address{
-        max-width: 285px;
+        max-width: 295px;
     }
 
     .footer h3{
@@ -1562,6 +1564,44 @@ footer a{
     .footer-meta-date {
         display: block;
     }
+
+    /*about us page*/
+    .about-us{
+        padding: 95px 0;
+    }
+
+    .about-us-content{
+        padding: 0 20px;
+    }
+
+    .about-us h1{
+        gap: 15px;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .about-us h1::before{
+        content: "";
+        flex-basis: 50px;
+        height: 2px;
+        background-color: var(--main-color);
+    }
+
+    .about-us h1::after{
+        content: "";
+        height: 2px;
+        flex-basis: 50px;
+        background-color: var(--main-color);
+    }
+    .about-us h2, .about-us h3, .about-us ul{
+        font-size: 18px;
+        margin-bottom: revert;
+    }
+
+    .about-us p{
+        font-size: 14px;
+    }
+
 }
 
 
