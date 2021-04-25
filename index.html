@@ -15,9 +15,11 @@
 	<!-- Font awsome -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 	
-	
 	<!-- jquery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+	<!-- javascript stylesheet -->
+	<script src="javascript/myscript.js"></script>
 </head>
 <body>
 
@@ -142,6 +144,13 @@
 
 <nav class="nav-top">
 	<div class="menu-wrapper">
+		<div class="hamburger-menu">
+			<div class="hamburger-menu-icon">
+				<span class="line top"></span>
+				<span class="line middle"></span>
+				<span class="line bottom"></span>
+			</div>
+		</div>
 		<ul class="menu">
 			<li><a href="#"> მთვარი</a></li>
 			<li class="submenu"><a href="#"> ჩვენს შესახებ</a>
@@ -203,8 +212,8 @@
 			</li>
 			<li class="media-news-item">
 				<a href="#">
-					<div class="media-news-img">
-						<img src="img/Cover2.png" alt="news-img">
+					<div class="media-news-img-wrapper">
+						<img class="media-news-img" src="img/Cover2.png" alt="news-img">
 						<span class="media-news-link">მედია გაშუქება</span>
 					</div>
 					<div class="media-news-summary">
