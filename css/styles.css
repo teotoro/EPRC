@@ -1318,7 +1318,7 @@ footer a{
     }
 
     .hamburger-menu-icon.close .middle{
-        transform: rotate(45deg) translate(0, -3px);
+        transform: rotate(45deg);
     }
 
     .hamburger-menu-icon.close .top{
@@ -1326,7 +1326,7 @@ footer a{
     }
 
     .hamburger-menu-icon.close .bottom{
-        transform: rotate(-45deg) translate(7px, -6px);
+        transform: rotate(-45deg) translate(5px, -5px);
     }
 
     .dropdown-nav-top{
@@ -1380,7 +1380,7 @@ footer a{
     .products-list li{
         width: 100%;
     }
-    
+
 
     /*homepage common*/
     .homepage section{
